@@ -16,10 +16,10 @@
             <div>
                 <label for="firstname">Your First Name</label><span class="required-field">*</span>
 
-                <input type="text" id="firstname" name="firstname" required minlength="2" maxlength="35" pattern="[A-z]" title ="Only Enter Your First Name">
+                <input type="text" id="firstname" name="firstname" required minlength="2" maxlength="35" pattern="^[A-Z]{1}[a-z-]*$" title ="Only Enter Your First Name. Use proper case">
                 <!-- TODO: Create a "lastname" input with type "text" -->
                 <label for="=lastname">Your Last Name</label><span class="required-field">*</span>
-                <input type="text" id="lastname" name="lastname" required minlength="2" maxlength="35" pattern="[A-z]" title ="Only Enter Your Last Name">
+                <input type="text" id="lastname" name="lastname" required minlength="2" maxlength="35" pattern="^[A-Z]{1}[a-z-]*$" title ="Only Enter Your Last Name.Use proper case">
                 <label for="age">Your Age</label><span class="required-field">*</span>
                 <input type="number" id="age"  name="age" min="21" max="120" required>
                 <h5>You must be 21 years of age or older to enter the contest.</h5>
